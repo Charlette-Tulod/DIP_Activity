@@ -57,6 +57,11 @@ namespace DIP_Activity
             }
         }
 
+        /// <summary>
+        /// SUBTRACTION
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SubtractButton_Click(object sender, EventArgs e)
         {
             resultImage = new Bitmap(imageB.Width, imageB.Height);
