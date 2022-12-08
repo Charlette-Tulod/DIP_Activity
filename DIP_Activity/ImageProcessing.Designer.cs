@@ -39,10 +39,10 @@
             this.Inversion_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Histogram_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Sepia_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Subtraction_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Subtraction_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -57,7 +57,7 @@
             this.Subtraction_MenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(922, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(900, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -131,6 +131,13 @@
             this.Sepia_MenuItem.Text = "Sepia";
             this.Sepia_MenuItem.Click += new System.EventHandler(this.Sepia_MenuItem_Click);
             // 
+            // Subtraction_MenuItem
+            // 
+            this.Subtraction_MenuItem.Name = "Subtraction_MenuItem";
+            this.Subtraction_MenuItem.Size = new System.Drawing.Size(99, 24);
+            this.Subtraction_MenuItem.Text = "Subtraction";
+            this.Subtraction_MenuItem.Click += new System.EventHandler(this.Subtraction_MenuItem_Click);
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -153,18 +160,11 @@
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
-            // Subtraction_MenuItem
-            // 
-            this.Subtraction_MenuItem.Name = "Subtraction_MenuItem";
-            this.Subtraction_MenuItem.Size = new System.Drawing.Size(99, 24);
-            this.Subtraction_MenuItem.Text = "Subtraction";
-            this.Subtraction_MenuItem.Click += new System.EventHandler(this.Subtraction_MenuItem_Click);
-            // 
             // ImageProcessing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(922, 506);
+            this.ClientSize = new System.Drawing.Size(900, 500);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
