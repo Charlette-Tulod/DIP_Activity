@@ -205,6 +205,13 @@ namespace DIP_Activity
             pictureBox2.Image = editedImage;
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void Subtraction_MenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Subtraction sub = new Subtraction();
+            sub.Show();
+        }
     }
 }
 
