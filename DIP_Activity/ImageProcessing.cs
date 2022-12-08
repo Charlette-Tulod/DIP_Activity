@@ -14,7 +14,11 @@ namespace DIP_Activity
             InitializeComponent();
             openFile = new OpenFileDialog(); // Open Dialog 
             saveFile = new SaveFileDialog(); // Save Dialog
-   
+            saveFile.RestoreDirectory = true;
+            saveFile.InitialDirectory = "C:\\";
+            saveFile.FilterIndex = 1;
+            saveFile.Filter = "jpg Files (*.jpg)|*.jpg|gif Files (*.gif)|*.gif|png Files (*.png)|*.png |bmp Files (*.bmp)|*.bmp";
+
         }
 
         /// <summary>
